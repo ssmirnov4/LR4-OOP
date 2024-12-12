@@ -5,6 +5,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
+        
         JFrame fr = new JFrame("Вращение прямоугольника вокруг своего центра тяжести");
         fr.setSize(800, 600);
         MyPanel pan = new MyPanel();
